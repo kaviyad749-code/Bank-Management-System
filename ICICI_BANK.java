@@ -97,6 +97,10 @@ public class ICICI_BANK {
 	        {
 	            icici.getUserDetails();
 	        }
+			else
+            {
+                System.out.println("Invalid Choice");
+            }
             }while(choice !=3);
          int choice2 = 0;
 	       do {
